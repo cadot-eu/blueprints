@@ -1,3 +1,10 @@
+#Add in /homeassistant/configuration.yaml
+#input_boolean:
+# cycle_active:
+#   name: Cycle Actif
+#   initial: off
+#   icon: mdi:repeat
+
 blueprint:
   name: Device On/Off Cycle with Timer
   description: Automatisation qui active un appareil pendant un certain nombre de minutes à intervalles réguliers dans une plage horaire définie.
